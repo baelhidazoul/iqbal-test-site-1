@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iqbal Hidayat bin Hamizul</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .header {
+            background-color: #ff6f61;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+        .section {
+            background-color: #ffffff;
+            border: 2px solid #000;
+            margin: 10px;
+            padding: 20px;
+            width: 45%;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+        }
+        .about, .blog {
+            background-color: #ffcc00;
+        }
+        .about h2, .blog h2 {
+            margin-top: 0;
+        }
+        .color-block {
+            background-color: #00aaff;
+            height: 50px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Iqbal Hidayat bin Hamizul</h1>
+        <p>Weird, Nerd, Hungry</p>
+    </div>
+    <div class="container">
+        <div class="section about">
+            <h2>About Me</h2>
+            <div class="color-block"></div>
+            <p>I'm Iqbal Hidayat bin Hamizul, an independent arts and culture journalist based in Kuala Lumpur, Malaysia. Actively covering the literature, arts, language, and theater scene since 2021. I contribute to Dewan Sastera, Dewan Budaya, and Tunas Cipta. I'm also a playwright and short story writer with works like "Terkilan," "Berdirinya Dia," "Erisyon, Banjir dan Rakyat Babah," and "Tiga Dering."</p>
+        </div>
+        <div class="section blog">
+            <h2>Blog</h2>
+            <div class="color-block"></div>
+            <p>Stay tuned for my latest articles, reviews, and musings on literature, arts, theater, movies, and more!</p>
+        </div>
+    </div>
+</body>
+</html>
